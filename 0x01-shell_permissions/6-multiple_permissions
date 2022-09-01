@@ -1,0 +1,2 @@
+#!/bin/bash
+çhmod u+x,g+x,o+r hello

@@ -1,2 +1,2 @@
-#!bin/bash
+#!/bin/bash
 All about shell permissions

@@ -1,0 +1,3 @@
+shell io redirection
+
+ls

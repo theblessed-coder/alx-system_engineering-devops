@@ -1,4 +1,4 @@
-#!usr/bin/env bash
+#!/usr/bin/env bash
 # Permission to connect to my server using the private key with user ubuntu
 
-ssh -I ~/.ssh/id_rsa ubuntu@34.224.83.151
+ssh -i ~/.ssh/school ubuntu@54.88.33.187

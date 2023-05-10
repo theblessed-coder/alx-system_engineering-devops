@@ -2,7 +2,6 @@
 """Function to print the titles of first 10 hot posts on a given Reddit subreddit."""
 import requests
 
-
 def top_ten(subreddit):
     """Print the titles of the 10 hottest posts on a given subreddit."""
     url = "https://www.reddit.com/r/{}/hot/.json".format(subreddit)

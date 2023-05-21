@@ -36,13 +36,13 @@ defaults
 
 frontend theblessedcoder-tech-frontend
     bind *:80
-    default_backend clickviral-tech-backend
+    default_backend theblessedcoder-tech-backend
 
 backend theblessedcoder-tech-backend
     balance roundrobin
-    server 151666-web-01 100.25.190.21:80 check
-    server 151666-web-02 54.160.77.90:80 check
-"
+    server 151666-web-01 100.25.138.113 check
+    server 151666-web-02 52.91.118.162 check
+    
 
 # shellcheck disable=SC2154
 echo "$server_config" | sudo dd status=none of=/etc/haproxy/haproxy.cfg
